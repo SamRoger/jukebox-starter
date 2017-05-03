@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JukeBox Starter Kit</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+<!-- <vid class="box1"></vid>
+ --><video playsinline autoplay muted loop poster id="background-video" class="background-video">
+    <source src="assets/video/water.mp4" type="video/webm">
+</video>
+
+<div class="player-container">
+	<div class="box">
+<div class="control-container">
+   	<div class="rewind"> << </div>
+	<div class="pause"> II </div>
+	<div id="play" class="play"> I> </div>
+	<div class="next"> >I </div>
+	<div onmousedown="mouseDown()" onmouseup="mouseUp()" class="ff"> >>> </div>
+</div>
+	<audio ontimeupdate="document.getElementsByClassName('display1')[0].innerHTML = Math.floor(this.currentTime)" src="" class="audio">
+	</audio>
+	<div class="display1"></div>
+	<div class="display"></div>
+	</div>
+</div>	
+
+
+
+
+<script type="text/javascript" src="assets/js/javascript.js"></script>
+
+</body>
+</html>
