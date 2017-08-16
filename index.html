@@ -18,19 +18,20 @@
 </video>
 
 <div class="player-container">
-	<div class="box">
-<div class="control-container">
-   	<div class="rewind"> << </div>
-	<div class="pause"> II </div>
-	<div id="play" class="play"> I> </div>
-	<div class="next"> >I </div>
-	<div onmousedown="mouseDown()" onmouseup="mouseUp()" class="ff"> >>> </div>
-</div>
-	<audio ontimeupdate="document.getElementsByClassName('display1')[0].innerHTML = Math.floor(this.currentTime)" src="" class="audio">
-	</audio>
-	<div class="display1"></div>
-	<div class="display"></div>
-	</div>
+		<div class="box">
+			<div class="control-container">
+			   	<div class="rewind"> << </div>
+				<div class="pause"> II </div>
+				<div id="play" class="play"> I> </div>
+				<div class="next"> >I </div>
+				<div onmousedown="mouseDown()" onmouseup="mouseUp()" class="ff"> >>> </div>
+			</div>
+
+		<audio ontimeupdate="document.getElementsByClassName('display1')[0].innerHTML = Math.floor(this.currentTime)" src="" class="audio"></audio>
+		
+				<div class="display1"></div>
+				<div class="display"></div>
+		</div>
 </div>	
 
 
