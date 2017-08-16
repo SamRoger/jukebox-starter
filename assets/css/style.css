@@ -3,10 +3,11 @@
 }
 
 .box {
+	margin: 0 auto;
 	box-shadow: 1px 1px 1px 1px black;
 	border-radius: 20px;
 	z-index: -10;
-	position: fixed;
+	/*position: relative;*/
 	left: 500px;
 	width: 480px;
 	height: 200px;
@@ -14,12 +15,11 @@
 }
 
 .control-container {
-	margin: 0 auto
+	/*margin: 0 auto*/
 }
 
 .player-container {
-	/*display: flex;
-	justify-content: space-around;*/
+
 	margin-top: 100px;
 	text-align: center;
 	margin: 0 auto;
@@ -75,12 +75,12 @@
 }
 
 .display1 {
+	margin: 0 auto;
 	margin-bottom: 3px;
 	font-size: 20px;
 	text-shadow: 2px 2px 3px black;
 	color: #45B39D;
 	font-family: 'Audiowide', cursive;
-	position: absolute;
 	left: 205px;
 }
 
